@@ -1,3 +1,7 @@
+package state_design_pattern;
+
+import state_design_pattern.LampOpenState;
+
 public class LampContext {
     private LampState lampState;
 

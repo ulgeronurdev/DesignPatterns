@@ -1,4 +1,6 @@
-public class LampOpenState implements LampState{
+package state_design_pattern;
+
+public class LampOpenState implements LampState {
     @Override
     public void onOpen() {
         System.out.println("Lamba açmaya çalışıyorsunuz fakat lamba zaten açıktı.");
